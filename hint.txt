@@ -1,8 +1,8 @@
-В ShellView добавляем две кнопки
-в ShellViewModel две команды для кнопок
-конструктор присваивает Content = new HiViewModel 
-команда один присваивает Content = new MainScreenViewModel
-команда два присваивает Content = new ExitViewModel
+п»їР’ ShellView РґРѕР±Р°РІР»СЏРµРј РґРІРµ РєРЅРѕРїРєРё
+РІ ShellViewModel РґРІРµ РєРѕРјР°РЅРґС‹ РґР»СЏ РєРЅРѕРїРѕРє
+РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РµС‚ Content = new HiViewModel 
+РєРѕРјР°РЅРґР° РѕРґРёРЅ РїСЂРёСЃРІР°РёРІР°РµС‚ Content = new MainScreenViewModel
+РєРѕРјР°РЅРґР° РґРІР° РїСЂРёСЃРІР°РёРІР°РµС‚ Content = new ExitViewModel
 
-ShellView вместо ContentControl.Content используем Resource
-и добавляем DataTemplates для HiViewModel, MainScreenViewModel, ExitViewModel.
+ShellView РІРјРµСЃС‚Рѕ ContentControl.Content РёСЃРїРѕР»СЊР·СѓРµРј Resource
+Рё РґРѕР±Р°РІР»СЏРµРј DataTemplates РґР»СЏ HiViewModel, MainScreenViewModel, ExitViewModel.
